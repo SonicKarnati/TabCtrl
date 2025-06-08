@@ -6,7 +6,6 @@ TabCtrl is a Chrome extension designed to enhance your tab management experience
 
 - AI-powered tab organization and management
 - Intuitive user interface for easy navigation
-- Categorization of tabs based on content
 - Focus mode to minimize distractions
 
 ## Installation
