@@ -1,0 +1,23 @@
+{
+  "name": "TabCtrl",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "A Chrome extension to manage tabs with AI.",
+
+  "permissions": ["activeTab", "scripting", "storage", "tabs", "tabGroups"],
+
+  "action": {
+    "default_popup": "popup/index.html"
+  },
+
+  "icons": {
+      "16": "images/icon16.png",
+      "48": "images/icon16.png",
+      "128": "images/icon16.png"
+
+  },
+
+  "host_permissions": [
+    "*://*/*"
+  ]
+}

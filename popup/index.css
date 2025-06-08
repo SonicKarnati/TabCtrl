@@ -1,0 +1,64 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  color: #f2f2f2;
+  background-color: #181a20;
+  font-size: 16px;
+  padding: 8px;
+  width: max-content;
+  height: max-content;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+button {
+  background: #23272f;
+  color: #f2f2f2;
+  border-radius: 8px;
+  border: none;
+  min-width: 100px;
+  padding: 8px;
+  margin: 16px 0;
+  cursor: pointer;
+}
+
+button.primary {
+  background: #23272f;
+  color: #f2f2f2;
+}
+
+button.secondary {
+  background: #444950;
+  color: #f2f2f2;
+}
+
+button[disabled] {
+  background: #33373d;
+  color: #888;
+}
+
+input[type='range'] {
+  margin-top: 16px;
+  accent-color: #4688f1;
+}
+
+textarea {
+  --padding: 32px;
+  width: calc(100% - var(--padding));
+  max-width: calc(100% - var(--padding));
+}
+
+.text,
+textarea {
+  background-color: #23272f;
+  color: #f2f2f2;
+  padding: 16px;
+  border-radius: 16px;
+  box-shadow: rgba(0, 0, 0, 0.32) 0px 1px 4px, #4688f1 0px 0px 0px 2px;
+  outline: none;
+}
